@@ -24,12 +24,6 @@
         "internalType": "uint256",
         "name": "stake",
         "type": "uint256"
-      },
-      {
-        "indexed": false,
-        "internalType": "address",
-        "name": "validator",
-        "type": "address"
       }
     ],
     "name": "HabitStarted",
@@ -109,11 +103,6 @@
             "type": "uint256"
           },
           {
-            "internalType": "address",
-            "name": "validator",
-            "type": "address"
-          },
-          {
             "internalType": "uint256",
             "name": "deadline",
             "type": "uint256"
@@ -163,11 +152,6 @@
         "type": "uint256"
       },
       {
-        "internalType": "address",
-        "name": "validator",
-        "type": "address"
-      },
-      {
         "internalType": "uint256",
         "name": "deadline",
         "type": "uint256"
@@ -210,11 +194,6 @@
         "internalType": "string",
         "name": "description",
         "type": "string"
-      },
-      {
-        "internalType": "address",
-        "name": "validator",
-        "type": "address"
       }
     ],
     "name": "startHabit",
@@ -231,24 +210,6 @@
       }
     ],
     "name": "submitProof",
-    "outputs": [],
-    "stateMutability": "nonpayable",
-    "type": "function"
-  },
-  {
-    "inputs": [
-      {
-        "internalType": "address",
-        "name": "user",
-        "type": "address"
-      },
-      {
-        "internalType": "bool",
-        "name": "success",
-        "type": "bool"
-      }
-    ],
-    "name": "validateHabit",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
